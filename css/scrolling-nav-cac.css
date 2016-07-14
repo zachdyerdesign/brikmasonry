@@ -1,0 +1,13 @@
+.intro-section {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../images/george-washington.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  background-color: #333;
+  color: white;
+}
