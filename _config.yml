@@ -12,8 +12,8 @@ description: We are family owned and operated We do historical building brick an
 owner: Brik Huntington
 phone: +1 417 353 1507
 address: PO Box 1842, Nixa, Missouri 65714
-baseurl: "brikmasonry" # the subpath of your site, e.g. /blog
-url: "http://zachdyerdesign.github.io/" # the base hostname & protocol for your site,
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://zachdyerdesign.github.io/brickmasonry" # the base hostname & protocol for your site,
 
 # Build settings
 markdown: kramdown
