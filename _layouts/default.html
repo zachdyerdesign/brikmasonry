@@ -12,7 +12,7 @@
     <title>{{ site.title }} | {{ page.title }}</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="/{{ site.baseurl }}/css/business-casual.css" rel="stylesheet">
