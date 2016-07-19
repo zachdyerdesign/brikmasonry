@@ -13,7 +13,7 @@ owner: Brik Huntington
 phone: +1 417 353 1507
 address: PO Box 1842, Nixa, Missouri 65714
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zachdyerdesign.github.io/brickmasonry" # the base hostname & protocol for your site,
+url: "http://brikmasonry.com" # the base hostname & protocol for your site,
 
 # Build settings
 markdown: kramdown
