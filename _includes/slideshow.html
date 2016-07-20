@@ -1,0 +1,54 @@
+<div id="carousel-example-generic" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators hidden-xs">
+      {% assign slides = 11 %}
+      {% for i in (0..slides) %}
+        <li data-target="#carousel-example-generic" data-slide-to="{{ i }}"{% if i == 0 %} class="active"{% endif %}></li>
+      {% endfor %}
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img class="img-responsive img-full" src="img/slide-1.jpg" alt="Fireplace masonry">
+        </div>
+        <div class="item">
+            <img class="img-responsive img-full" src="img/slide-2.jpg" alt="A house with stone masonry.">
+        </div>
+        <div class="item">
+            <img class="img-responsive img-full" src="img/slide-3.jpg" alt="A house with stone masonry.">
+        </div>
+        <div class="item">
+            <img class="img-responsive img-full" src="img/slide-4.jpg" alt="A house with stone masonry.">
+        </div>
+        <div class="item">
+            <img class="img-responsive img-full" src="img/slide-5.jpg" alt="A house with stone masonry.">
+        </div>
+        <div class="item">
+            <img class="img-responsive img-full" src="img/slide-6.jpg" alt="A house with stone masonry.">
+        </div>
+        <div class="item">
+            <img class="img-responsive img-full" src="img/slide-7.jpg" alt="A house with stone masonry.">
+        </div>
+        <div class="item">
+            <img class="img-responsive img-full" src="img/slide-8.jpg" alt="A house with stone masonry.">
+        </div>
+        <div class="item">
+            <img class="img-responsive img-full" src="img/slide-9.jpg" alt="A house with stone masonry.">
+        </div>
+        <div class="item">
+            <img class="img-responsive img-full" src="img/slide-10.jpg" alt="A house with stone masonry.">
+        </div>
+        <div class="item">
+            <img class="img-responsive img-full" src="img/slide-11.jpg" alt="A house with stone masonry.">
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>
